@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart City</title>
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+
+				<!-- js -->
+		<script src="js/jquery-1.11.1.min.js"></script> 
+		<!-- //js -->	
+			</head>
+
+	<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="index.html">
+					<img src="images/logo.gif" alt="logo"/>
+				</a>
+			</div>
+			<div class="header-info">
+				<p>Contact us:</p>
+				<div>
+				<a href="[full link to Twitter]">
+				<img title="Twitter" alt="Twitter" src="images/twitter.png" width="35" height="35" />
+				</a>
+				<a href="www.facebook.com/diksha.khatri.9">
+				<img title="Facebook" alt="Facebook" src="images/facebook.png" width="35" height="35" />
+				</a>
+				</div>		
+				<h4>Welcome Guest</h4>
+				
+			</div>			
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+<!--header-bottom-->
+	<div class="header-bottom">
+		<div class="container">
+			<!--top-navigation-->
+			<div class="top-nav cl-effect-5">
+				<span class="menu-icon">
+					<img src="images/menu-icon.png" alt=""/>
+				</span>		
+				
+				<ul class="nav1" id="menu">
+					<li><a href="index.html" class="active" >
+						<span data-hover="Home">Home</span></a>
+					</li>
+					<li><a href="about.html">
+						<span data-hover="About" >About</span></a>
+					</li>
+					<li><a href="gallery.html">
+						<span data-hover="Gallery" >Gallery</span></a>
+					</li>
+					<li><a href="#blog">
+						<span data-hover="Blogs" >Blogs</span></a>
+					</li>
+					
+					<li><a href="map.html">
+						<span data-hover="Map" >Map</span></a>
+					</li>
+
+					<li><a href="login.html" >
+						<span data-hover="Login">Login</span></a>
+					</li>
+					
+					
+				</ul>
+				<!-- Jquery script-for-menu to execute on small screens like tablets/mobiles -->
+				
+				<script>
+					$( "span.menu-icon" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete. Empty function to cahnge state on click
+						});
+					});
+				</script>
+			</div>
+			<!--//top-nav-->
+
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-bottom-->
+
+	<!--map-->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJa8lu5gvtDzkR_hlzUvln_6U&key=AIzaSyAXhqCk4RIIc0FqLqLBtgn712eXQgzGrOA" allowfullscreen></iframe>
+		<div class="container">	
+			<div class="map-info">
+				<ul>
+					<li>Head office</li>
+					<li>Jaypee University</li>
+					<li>Waknaghat, Solan</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--//map-->
+
+
+	<div class="footer" id="blog">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-9 recent-posts">
+					<h3>Blogs</h3>
+					<div class="recent-posts-text">
+						<h5>about 2 days ago<span>@kristit</span></h5>
+						<p>Maintanence service is really active. Keep the spirit</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>about 3 days ago <span>@fasteven</span></h5>
+						<p>Need more fire workers in place at sector 30-D</p>
+					</div>
+					<div class="recent-posts-text">
+						<h5>about 5 days ago <span>@streamer</span> </h5>
+						<p>Thanks to this cty. I got Job after 4 days of moving in to the city while i was searching for a job from 3 years.</p>
+					</div>
+				</div>
+				<!--</div>-->
+				<div class="col-md-3 recent-posts">
+					<h4>Our address</h4>
+						<ul>
+							<li><span></span>H-15 C-27 Parmar Bhawan</li>
+							<li><span class="ph-no"></span>+91 7831030827</li>
+							<li><span class="mail"></span><a href="s.singla1996@gmail.com">Shubham Singla</a></li>
+						</ul>
+						<ul>
+							<li><span></span>D-16 Geeta Bhawan</li>
+							<li><span class="ph-no"></span>+91 9816927326</li>
+							<li><span class="mail"></span><a href="khatridiksha7@gmail.com">Diksha Khatri</a></li>
+						</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	
+	<!--//footer-->
+	<div class="footer-bottom">
+		<div class="container">
+			<p>Copyright © 2015 We care 4 u. </p>
+			<p> Terms & Conditions</p>
+			<p>Privacy Policy</p>
+		</div>
+	</div>
